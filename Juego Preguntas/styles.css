@@ -1,0 +1,74 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url('/img/fondo.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40%; 
+    margin: 100px auto; 
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.5); 
+ padding-right: 5rem;
+ padding-left: 5rem;
+}
+  
+  #countdown {
+    font-size: 30px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 20px;
+    color: red;
+  }
+  
+  form {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 20px;
+    text-align: left;
+  }
+  .questions-container {
+    width: 80%; /* Ancho del contenedor de preguntas y respuestas */
+    margin: 0 auto; /* Centrar horizontalmente */
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    
+    padding: 10px 20px;
+    background-color: #00b8b8;
+    color: #fff;
+    border-radius: 6%;
+    cursor: pointer;
+    border-bottom: #fff;
+    font-size: 15px;
+
+  }
+  
+  button:disabled {
+    background-color: rgb(214, 0, 29);
+    cursor: not-allowed;
+    font-size: 15px;
+  }
+
+  h1{
+    color: rgb(117, 4, 4);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: px40;
+  }
+
+  
+  
